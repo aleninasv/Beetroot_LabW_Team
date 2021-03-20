@@ -1,0 +1,39 @@
+.create {
+  width: 100%;
+}
+.create__title {
+  margin: 45px 0;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #444444;
+}
+.create__subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+  color: #666666;
+}
+.create__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.create__textfield {
+  display: inline-block;
+  flex-basis: 280px;
+  height: 40px;
+  padding: 0 10px;
+  margin: 0 15px 10px 15px;
+  border: 1px solid lightgray;
+}
+.create__button {
+  flex-basis: 270px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ff4e50;
+  border: none;
+  color: #fff;
+  margin-bottom: 30px;
+}

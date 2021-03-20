@@ -61,6 +61,7 @@
   transition: 0.2s ease-in;
 }
 .sidebar__link {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   display: block;
   line-height: 30px;
@@ -81,4 +82,8 @@
 }
 .defchbox:checked ~ .sidebar {
   opacity: 1;
+}
+/* Create section */
+.create {
+  width: 100%;
 }

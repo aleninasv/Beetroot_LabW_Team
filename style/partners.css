@@ -1,0 +1,147 @@
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+
+.partners {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.partners__container {
+    width: 80%;
+    height: auto;
+}
+
+
+.partners__text {
+    text-align: center;
+}
+
+
+.partners__subtitle {
+    font-size: 26px;
+    font-family: "Montserrat";
+}
+
+
+.partners__block {
+    height: auto;
+}
+
+
+.partners__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.partners__wrapper {
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+.partners__wrapper img {
+    width: 60%;
+}
+
+
+.partners__img {
+    display: flex;
+    justify-content: center;
+}
+
+.partners__photo {
+    width: 120px;
+    height: 120px;
+
+}
+
+
+.partners__name {
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+.partners__about {
+    font-weight: 300;
+    font-family: "Roboto";
+    color: #666666;
+    text-align: center;
+    width: 70%;
+    margin: 12px auto;
+    height: 3em;
+    line-height: 1.5em;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.button {
+    background-color: #fff;
+    width: 280px;
+    height: 40px;
+    margin-top: 36px;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+}
+
+.button__text {
+    color: #FF4E50;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .partners__block {
+        display: block;
+        margin-top: 35px;
+    }
+
+.partners__block.one, .partners__block.two {
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px ) {
+
+
+    .partners__block {
+        display: flex;
+        height: 360px;
+        margin: 0;
+    }
+
+    .btn {
+        margin-top: 36px;
+        padding: 0;
+    }
+
+    .button {
+        margin: 0;
+    }
+
+}
+
+    

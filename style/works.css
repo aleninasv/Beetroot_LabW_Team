@@ -1,0 +1,119 @@
+.works {
+  text-align: center;
+  margin: 2% 2%;
+}
+
+.works__header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #444444;
+}
+
+.works__steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.works__step {
+  height: 30vh;
+  width: 100%;
+
+  margin: 2% 0;
+  border-radius: 3%;
+
+  position: relative;
+}
+
+.works__step--1 {
+  background-image: url(../img/mobile/works_1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.works__step--2 {
+  background-image: url(../img/mobile/works_2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.works__step--3 {
+  background-image: url(../img/mobile/works_3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.work__description {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  text-align: left;
+  width: 85%;
+}
+
+.work__step {
+  background-color: #ff4e50;
+  color: white;
+  font-weight: 400;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 40px;
+  padding: 2% 10%;
+}
+
+.work__header {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 10% auto;
+}
+
+.work__text {
+  font-family: "Roboto", sans-serif;
+  color: #e3e3e3;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .works__steps {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .works__step--1 {
+    background-image: url(../img/tablet/works_1.png);
+  }
+
+  .works__step--2 {
+    background-image: url(../img/tablet/works_2.png);
+    margin: 0 2%;
+  }
+
+  .works__step--3 {
+    background-image: url(../img/tablet/works_3.png);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .works {
+    margin: 2% 10%;
+  }
+
+  .works__step--1 {
+    background-image: url(../img/desktop/works_1.png);
+  }
+
+  .works__step--2 {
+    background-image: url(../img/desktop/works_2.png);
+  }
+
+  .works__step--3 {
+    background-image: url(../img/desktop/works_3.png);
+  }
+}

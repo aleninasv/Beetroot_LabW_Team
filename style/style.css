@@ -164,3 +164,18 @@
     padding: 10px 5px 10px 5px;
   }
 }
+
+@media only screen and (min-width: 1440px ) {
+  .container{
+    padding-top: 15%;
+  }
+  
+  .header__title { 
+    width:900px;
+    padding-bottom: 2%;
+  }
+  
+  .header__subtitle { 
+    padding-bottom: 2%;
+  }
+}
